@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexandre Niess</title>
+    <meta
+      name="description"
+      content="Descubra o mundo de Alexandre Niess através de seu site oficial, um espaço dedicado a destacar meu portfólio, experiências profissionais e projetos inovadores. Navegue pelo meu currículo detalhado, explore casos de estudo de projetos passados e obtenha insights sobre as habilidades e tecnologias que moldam minha carreira."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Alexandre Niess" />
+    <meta
+      property="og:description"
+      content="Descubra o mundo de Alexandre Niess através de seu site oficial, um espaço dedicado a destacar meu portfólio, experiências profissionais e projetos inovadores."
+    />
+    <meta property="og:url" content="https://alexandreniess.com.br" />
+
+    <meta
+      property="og:image:alt"
+      content="Uma visão geral do portfólio de Alexandre Niess"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="/logo_purple.svg" />
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      })(window.location);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
