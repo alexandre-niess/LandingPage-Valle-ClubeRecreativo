@@ -12,7 +12,6 @@ A aplicação foi desenvolvida em **React.js** com **Vite**, utilizando a biblio
 - [Vite](https://vitejs.dev/) ⚡
 - [MUI (Material UI)](https://mui.com/) 🎨
 - [React Router](https://reactrouter.com/) 🌐
-- [Axios](https://axios-http.com/) (para integração com APIs, se necessário)
 - [React Hook Form](https://react-hook-form.com/) (para manipulação de formulários)
 
 ## 📂 Estrutura do Projeto
@@ -35,8 +34,8 @@ A aplicação foi desenvolvida em **React.js** com **Vite**, utilizando a biblio
 ### 1️⃣ Clone o Repositório
 
 ```sh
-git clone https://github.com/seu-usuario/valle-landing-page.git
-cd valle-landing-page
+git clone https://github.com/alexandre-niess/LandingPage-Valle-ClubeRecreativo.git
+LandingPage-Valle-ClubeRecreativo
 ```
 
 ### 2️⃣ Instale as Dependências
@@ -57,20 +56,16 @@ yarn dev
 
 Acesse **http://localhost:5173/** no navegador.
 
-## 🎨 Personalização
-
-Caso queira modificar o tema do **MUI**, edite o arquivo de **tema global** (`theme.js`) e personalize as cores, tipografia e estilos.
 
 ## 🔗 Link da Landing Page
 
-👉 [Acesse a versão publicada aqui](https://seu-link-aqui.com/)
+👉 [Acesse a versão publicada aqui](https://app.valleconsultores.com.br/cluberecreativo)
 
 ## 📩 Contato
 
-Caso tenha dúvidas ou sugestões, entre em contato!
+Caso tenha dúvidas ou sugestões, entre em contato! Acesse o meu portfólio para mais informações de contato:
 
-✉️ **E-mail:** seuemail@email.com  
-🔗 **LinkedIn:** [linkedin.com/in/seuperfil](https://linkedin.com/in/seuperfil)
+👉 [**Portfólio**](https://portfolio-alexandre-niess.web.app/)
 
 ---
 
